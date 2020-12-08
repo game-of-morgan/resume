@@ -1,10 +1,11 @@
 import React from 'react';
-import Container from '../components/Container/Container';
+import { Route, Switch } from 'react-router-dom';
+import LandingPage from '../pages/LandingPage/LandingPage';
 
 const App = () => (
-  <Container>
-    <h1>Hello World</h1>
-  </Container>
+  <Switch>
+    <Route path="/resume" exact component={LandingPage} />
+  </Switch>
 );
 
 export default App;

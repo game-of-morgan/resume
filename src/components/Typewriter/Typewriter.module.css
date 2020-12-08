@@ -1,0 +1,17 @@
+.Typewriter {
+    font-family: Consolas;
+}
+
+.Terminal {
+    display: flex;
+}
+.Terminal > div:first-of-type {
+    margin-right: 0.4em;
+}
+.Terminal > div:last-of-type {
+    flex: 1 auto;
+}
+
+.HideCursor {
+    visibility: hidden;
+}
