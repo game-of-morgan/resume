@@ -1,3 +1,8 @@
+.Container {
+    display: flex;
+    flex-direction: column;
+}
+
 .Typewriter {
     font-family: Consolas;
 }
@@ -10,6 +15,9 @@
 }
 .Terminal > div:last-of-type {
     flex: 1 auto;
+}
+.Terminal.Faded {
+    opacity: 0.5;
 }
 
 .HideCursor {
