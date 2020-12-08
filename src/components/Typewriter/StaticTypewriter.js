@@ -12,7 +12,7 @@ const StaticTypewriter = ({ lines }) => {
   const [output, setOutput] = useState([]);
   const [showCursor, setShowCursor] = useState(true);
   const [currentLineIndex, setCurrentLineIndex] = useState(0);
-  const enterKeyPress = useKeyPress('enter');
+  const enterKeyPress = useKeyPress('enter', true);
 
   useEffect(() => {
     if (
