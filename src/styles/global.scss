@@ -1,0 +1,19 @@
+@page {
+    margin-top: 0.5in;
+    margin-bottom: 0.5in;
+    margin-left: 0.5in;
+    margin-right: 0.5in;
+}
+
+html, body {
+    margin: 0;
+}
+
+*, *:after, *:before {
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+}
