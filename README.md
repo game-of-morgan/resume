@@ -4,7 +4,7 @@ I am a Software Developer &#128526; in the heart of Canada &#127809; who loves w
 
 ## Check out the app (my bio)
 
-I've written this Github page as a card style, to the point, bio on my professional experience and interests. [Take a look!](https://game-of-morgan.github.io/resume/)
+I've written this Github page as a card style, to the point bio on my professional experience and interests. [Take a look!](https://game-of-morgan.github.io/resume/)
 
 ## This project
 
